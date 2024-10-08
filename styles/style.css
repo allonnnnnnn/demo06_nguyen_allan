@@ -1,1 +1,39 @@
+/* New Color Palette: 
+* Space cadet(Text): #2B2D42 (text, contrast with dark) 
+* Cool grey(Primary): #8D99AE 
+* Aureolin(Secondary): #F8F32B (canvas background) 
+* White (Accent): #FFFFF 
+*/
+
+.bg-info {
+    background-color: #8D99AE !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #F8F32B;            /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+    color: #2B2D42;            /* Lightest shade for text on info button for contrast */
+    background-color: #8D99AE; /* Light green for button background */
+    border-color: #F8F32B;     /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #2B2D42;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #F8F32B; /* Dark green for primary button background */
+    border-color: #FFFF;     /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #2B2D42; /* Lightest shade for body background to follow the 60% rule */
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
 
